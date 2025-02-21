@@ -35,19 +35,19 @@ git clone https://github.com/omniglobalstandards/MysqlTableUsageEstimatorByFile.
 
 2. Make the script executable:
 ```bash
-chmod +x mysql_table_usage.sh
+chmod +x table_usage.sh
 ```
 
 # Usage
 
 ## Basic Usage
 ```bash
-./mysql_table_usage.sh -d /path/to/mysql/data
+./table_usage.sh -d /path/to/mysql/data
 ```
 
 ## With Size Information
 ```bash
-./mysql_table_usage.sh -d /path/to/mysql/data -z
+./table_usage.sh -d /path/to/mysql/data -z
 ```
 
 ## All Available Options
